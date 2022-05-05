@@ -1,1 +1,44 @@
+body {
+  margin: 10px;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+h1{
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+#content {
+  display: block;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav_li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
