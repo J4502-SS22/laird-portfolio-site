@@ -10,15 +10,68 @@
   </head>
 
   <body>
-    <ul class="nav">
-  <li class="nav_li"><a href="index.html">Home</a></li>
-  <li class="nav_li"><a href="resume.html">Resume</a></li>
-  <li class="nav_li"><a href="clips.html">Clips</a></li>
-  </ul>
+    <div class="topnav" id="navbar">
+    <ul class="topnav">
+      <div class="main">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    		<br><div class="topnav" id="myTopnav">
+    			<a href= "index.html" tabindex="0" class="active">Home</a>
+    			<a href= "resume.html" tabindex="0">Resume</a>
+    			<a href= "clips.html" tabindex="0">Clips</a>
+    			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+      </ul>
+    	</div>
+</div>
     <h1>Skylar Laird</h1>
     <img src="">
     <p class="intro">Hi! I’m <strong>Skylar Laird</strong>, a reporter and assistant city editor for the Columbia Missourian in Columbia, MO. I am a student at the University of Missouri – Columbia studying print and digital news reporting. I’ve worked a variety of positions at several different news outlets. I am passionate about journalism and believe all people should have access to information about what’s happening in their communities and their worlds.</p>
+<br>
     <p class="intro">I currently live in Columbia, Missouri, with my pet axolotl, Gene. When I’m not working, you’re likely to find me writing, reading or planning my next game night. Reach out to say hello, send me your favorite book and movie recommendations, or let me know of any opportunities you think might fit me.
     <a href="mailto:skylarlaird13@gmail.com?subject=Hello!"target="_blank">Shoot me a message!</a>
   </body>
 </html>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+<!--.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: grey;
+  justify-content: space-around;
+}
+
+.navli {
+  float: left;
+  display: flex;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }-->
