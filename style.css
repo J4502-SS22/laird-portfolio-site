@@ -52,10 +52,10 @@ img {
 }
 
 iframe {
-  /* height: 970px;
-  width: 700px; */
-  height: 100%;
-  width: 100%;
+  height: 970px;
+  width: 700px;
+  /* height: 75%;
+  width: 75%; */
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -91,17 +91,18 @@ margin-top: 0;
 
 .topnav a:hover {
   background-color: #E89005;
-  color: #E89005;
+  color: white;
 }
 
 .topnav a.active {
   background-color: #E89005;
-  color: #E89005;
+  color: white;
 }
 
 .topnav a.icon {
   display: none;
 }
+
 
 @media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
