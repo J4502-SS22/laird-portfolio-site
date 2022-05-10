@@ -63,7 +63,7 @@ iframe {
 
 .topnav{
 display: flex;
-background-color: black;
+background-color: #230C33;
 overflow: hidden;
 margin-top: 0;
 
@@ -80,13 +80,13 @@ margin-top: 0;
 }
 
 .topnav a:hover {
-  background-color: white;
-  color: grey;
+  background-color: #230C33;
+  color: #592E83;
 }
 
 .topnav a.active {
-  background-color: black;
-  color: white;
+  background-color: #230C33;
+  color: #592E83;
 }
 
 .topnav a.icon {
@@ -112,10 +112,3 @@ margin-top: 0;
     display: block;
     text-align: left;
   }
-
-  @media screen and (max-width: 700px) {
-    iframe :not(:first-child) {display: none;}
-    iframe.icon {
-      float: right;
-      display: block;
-    }
