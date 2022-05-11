@@ -14,13 +14,14 @@
         <a href= "index.html" tabindex="0">Home</a>
         <a href= "resume.html" tabindex="0" class="active">Resume</a>
         <a href= "clips.html" tabindex="0">Clips</a>
+        <a href= "pets.html" tabindex="0">Pets</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i></a>
     </ul>
     </div>
 
 <h1>My resume</h1>
-<iframe src="resumeportfolio.pdf"></iframe>
+<iframe src="assets/resumeportfolio.pdf"></iframe>
 
 <br>
 <h2>Experience:</h2>
@@ -192,3 +193,15 @@
 
 
 </body>
+</html>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
