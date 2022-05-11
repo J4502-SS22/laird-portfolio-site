@@ -77,7 +77,15 @@ iframe {
   margin: auto;
 }
 
-
+footer {
+  background: #262322;
+  color: white;
+  text-align:center;
+  margin-top: 25px;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
 
 .topnav{
 display: flex;
